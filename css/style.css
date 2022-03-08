@@ -21,7 +21,7 @@ ul {
   position: fixed;
   top: 20px;
   left: 92%;
-  color: white;
+
   z-index: 100;
 }
 .nav-bar a {
@@ -30,6 +30,8 @@ ul {
 }
 .nav-bar li {
   display: inline-block;
+  border-radius: 50%;
+  background-color: white;
   padding: 0 0.5em;
 }
 #shoes1 {
