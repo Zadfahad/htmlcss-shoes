@@ -1,0 +1,29 @@
+/* RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Rubik Mono One", sans-serif;
+}
+.container {
+  background-color: red;
+  height: 100vh;
+  position: relative;
+}
+.pic-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 70%;
+  width: auto;
+}
+.text-center {
+  position: absolute;
+  top: 80%;
+  left: 37%;
+}
